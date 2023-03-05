@@ -19,7 +19,7 @@ const Navbar = () => {
             <div className='hidden md:flex pr-4'>
                 <button className='border-none mr-4 px-8 py-3'>Contact</button>
             </div>
-            <div className='md:hidden' onClick={handleClick}>
+            <div className='md:hidden mr-4' onClick={handleClick}>
                 {!nav ? <Bars3Icon className="w-5" /> : <XMarkIcon className="w-5" />}
             </div>
         </div>
