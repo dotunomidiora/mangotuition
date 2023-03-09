@@ -4,6 +4,7 @@ import About from "./components/About";
 import WhatWeDo from "./components/WhatWeDo";
 import WhatWeOffer from "./components/WhatWeOffer";
 import Pricing from "./components/Pricing";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <WhatWeDo />
     <WhatWeOffer />
     <Pricing />
+    <Footer />
     </>
    
   );
